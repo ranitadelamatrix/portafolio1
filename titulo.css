@@ -1,0 +1,101 @@
+/*foto perfil*/
+#fotoperifil{
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+  
+  }
+  /*titulo*/
+  #titulo{
+    
+    font-style:italic;
+    font-weight: bold;
+    width: 625px;
+    
+    
+  }
+  #locomotora{
+    height: 80px;
+    width: 80px;
+    margin-top: 8px;
+    
+
+  }
+  #cabeza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Ajustar el tamaño del contenedor del encabezado según tus necesidades */
+    height: 160px;
+}
+
+/* Estilos opcionales para el logotipo y el título */
+#logo {
+    margin-bottom: 10px;
+}
+
+
+    
+
+header {
+  font-family: 'Courier New', monospace;
+  
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+#ti {
+  text-align: center;
+  margin: 1px 0;
+}
+
+#ti h1 {
+  font-size: 36px;
+  font-family: 'Pacifico', cursive; /* Utilizamos la fuente en manuscrita 'Pacifico' */
+  /* Ajustamos el espaciado entre letras para un aspecto más manuscrito */
+  letter-spacing: 2px;
+}
+  /*#cabeza{
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+    
+    height: 110px;
+    
+  }
+
+  
+  #ti{
+    
+    margin-top: 0;
+    width: 450px;
+    height: 82px;
+  }
+ #logo{
+  width: 85px;
+  text-align: center;
+  float: left;
+  
+
+ }*/
+ 
+ #foto{
+    width: 230px; /* Ajusta el tamaño deseado para tu foto de perfil*/
+    height: 260px;
+    border-radius: 50%;
+    overflow:hidden;
+    float: left;
+  }
+  
+  #foto img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+ 
+  

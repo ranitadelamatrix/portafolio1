@@ -1,0 +1,73 @@
+
+
+/* Estilos para los iconos */
+#conteicono {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icono{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+#mensaje{
+    width: 200px;
+}
+#email{
+    margin-left: 19px;
+
+}
+#consulta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* menu vertical*/
+nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+ 
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+  }
+
+/* fondo del portafolio*/
+
+body{
+    background-image: url(imagenes/claritio.jpg); /*para poner imagen de fondo*/
+    background-repeat: no-repeat; /*para que sea una sola imagen*/
+    background-attachment: fixed; /*estos efectas para sacara lo blanco de fonde de pantalla*/
+    background-size: cover;
+}
+/*fondo del menu*/
+#menu{
+    background-color: aliceblue;
+
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
