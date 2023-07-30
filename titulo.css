@@ -28,6 +28,8 @@
     flex-direction: column;
     /* Ajustar el tamaño del contenedor del encabezado según tus necesidades */
     height: 160px;
+    margin-top: 45px;
+
 }
 
 /* Estilos opcionales para el logotipo y el título */
