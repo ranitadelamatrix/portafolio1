@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap" rel="stylesheet">
   <!-- Agrega este enlace a Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
@@ -24,69 +27,107 @@
       <H1>Informacion</H1>
     </div>
     </div>
-
-    <nav id="menu">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="proyecto.html">Proyectos</a></li>
+    <div class="container d-flex justify-content-center">
+      <nav id="menu" class="navbar navbar-expand-md navbar-light bg-light text-center">
+          <!-- Botón colapsable en dispositivos pequeños -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Elementos del menú -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav w-100 bg-light">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyecto.html">Proyectos</a>
+          </li>
         
-        <li><a href="contact.html">Contacto</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacto</a>
+        </li>
       </ul>
     </nav> 
   </header>
 
   <div id="info">
-    <ul>
-      <li><a class="tex">SQL: conocimientos en lenguaje SQL, base de datos MySql Worckbench, backup, cifrado de datos.</a></li>
-      <li><a class="tex">CRUD: desde Python.</a></li>
-      <li><a class="tex">GitHub: backup de datos, para no perder los proyectos, ramas.</a></li>
-      
+      <p id="textoo">Actualmente estoy cursando la tecnicatura de tecnico superior en tecnologias 4.0, me dedico a la programacion, por eso me capacito constantemente. Me destaco en habilidades de desarrollador web en html, css. 
+       Tambien manejo el lenguaje de programacion JavaScript, Python, SQL.
+       <br>
+       A través de mi trayectoria como desarrollador, he creado diversas aplicaciones web y sitios que destacan por su estética y funcionalidad. Mis conocimientos en HTML y CSS me permiten diseñar interfaces intuitivas y atractivas
+        que brindan una experiencia de usuario excepcional. Además, soy capaz de implementar interacciones dinámicas utilizando JavaScript para hacer que mis proyectos sean más interactivos y entretenidos.
+      <br>
+    </p>
+    <div id="siguiente">
+    <button type="button" onclick="aspecto()" id="sigui">Siguiente</button>
+  </div>
+  </div>
+  <div id="cuadrado" class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar html" style="width: 90%;"></div>
+                </div>
+            </div>
 
-    </ul>
-    
-  </div>
-  <div id="cuadrado">
-<div class="skill">
-    <h3>HTML</h3>
-    <div class="progress">
-      <div class="progress-bar html"></div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-bar js" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>SQL</h3>
+                <div class="progress">
+                    <div class="progress-bar SQL" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar css" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress">
+                    <div class="progress-bar py" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  
-  <div class="skill">
-    <h3>CSS</h3>
-    <div class="progress">
-      <div class="progress-bar css"></div>
-    </div>
-  </div>
-  
-  <div class="skill">
-    <h3>JavaScript</h3>
-    <div class="progress">
-      <div class="progress-bar js"></div>
-    </div>
-  </div>
-  <div class="skill">
-    <h3>Python</h3>
-    <div class="progress">
-      <div class="progress-bar py"></div>
-    </div>
-  </div>
-  <div class="skill">
-    <h3>SQL</h3>
-    <div class="progress">
-      <div class="progress-bar SQL"></div>
-    </div>
-  </div>
 </div>
 
+
+
+
+
+
+
+
+
 <footer>
-  <a id="des">descargar cv</a>
   <div id="conicon">
+  <a id="des">descargar cv</a>
+  <div>
   
     <a href="imagenes/cv gaston trejo.pdf" download><img src="imagenes/descarga.png" alt="descargar" id="descarga"></a>
   </div>
+</div>
 </footer>
 
 </body>
+<script src="index.js"></script>
+<!-- Agrega las referencias a los archivos de Bootstrap JS (jQuery y Popper.js) -->
+<script src="ruta-a-tu-archivo-jquery.js"></script>
+<script src="ruta-a-tu-archivo-popper.js"></script>
+<script src="ruta-a-tu-archivo-bootstrap.js"></script>
 </html>

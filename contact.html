@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,54 +7,103 @@
     
     <link rel="stylesheet" href="titulo.css">
     <link rel="icon" href="imagenes/locomotora.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="contac.css">
+
+    <link rel="stylesheet" href="contac.css">
+    
 </head>
 <body>
     <header>
         <div id="cabeza">
             <div id="logo">
-              <img id="locomotora" src="imagenes/locomotora.png" alt="locomotora">
+                <img id="locomotora" src="imagenes/locomotora.png" alt="locomotora">
             </div>
-            <div id="ti">
-              <H1>Contac</H1>
+            <div >
+                <H1 id="tituu">Contac</H1>
             </div>
-            </div>
+        </div>
     
-        <nav id="menu">
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="proyecto.html">Proyectos</a></li>
-            <li><a href="acerca.html">Acerca de</a></li>
-            
-          </ul>
+        <div class="container d-flex justify-content-center">
+        <nav id="menu" class="navbar navbar-expand-md navbar-light bg-light text-center">
+            <!-- Botón colapsable en dispositivos pequeños -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Elementos del menú -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 bg-light">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyecto.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        
-      </header>
-      <div id="conteicono">
-        <a href="https://www.instagram.com/gastotrejo/"><img class="icono" src="imagenes/insta.png" alt="Instagram"></a>
-        <a href="https://www.linkedin.com/in/gaston-trejo-018783258"><img class="icono" src="imagenes/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://wa.me/3854172687"><img class="icono" src="imagenes/whatsapp.png" alt="WhatsApp"></a>
-        <a href="#contacto"><img class="icono" src="imagenes/outlook.png" alt="Outlook"></a>
-        <a href="https://github.com/ranitadelamatrix"><img src="imagenes/github.png" class="icono" alt="github"></a>
-        <a href="https://discord.gg/hXNsPqpE"><img src="imagenes/discordia.png" class="icono" alt="github"></a>
+    </div>
+    </header>
+
+    <div id="conteicono" class="container text-center mt-4">
+        <div class="row">
+            <div class="col-md-12 col-12">
+                <a href="https://www.instagram.com/gastotrejo/">
+                    <img class="icono" src="imagenes/insta.png" alt="Instagram">
+                </a>
+            
+            
+                <a href="https://www.linkedin.com/in/gaston-trejo-018783258">
+                    <img class="icono" src="imagenes/linkedin.png" alt="LinkedIn">
+                </a>
+            
+            
+                <a href="https://wa.me/3854172687">
+                    <img class="icono" src="imagenes/whatsapp.png" alt="WhatsApp">
+                </a>
+            
+                <a href="mailto:gastontrejo9099@hotmail.com">
+                    <img class="icono" src="imagenes/outlook.png" alt="Outlook">
+                </a>
+            
+            
+                <a href="https://github.com/ranitadelamatrix">
+                    <img class="icono" src="imagenes/github.png" alt="github">
+                </a>
+            
+                <a href="https://discord.gg/hXNsPqpE">
+                    <img class="icono" src="imagenes/discordia.png" alt="github">
+                </a>
+            </div>
+        </div>
     </div>
 
-    <section id="contacto">
+    <section id="contacto" class="container mt-5">
         <h2 id="consulta">Deja tu consulta</h2>
         <form action="mailto:gastontrejo9099@hotmail.com" method="post" enctype="text/plain">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            <br>
-            <input type="submit" value="Enviar">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" class="form-control" required></textarea>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" value="Enviar" class="btn btn-primary">
+            </div>
         </form>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -81,3 +81,29 @@ h2{
   margin-top: 500px;
   
 }
+#botonns{
+  text-align: center;
+  
+}
+/*fonde de video*/
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Coloca el video detrás del contenido de la página */
+}
+
+/* Asegúrate de que el video no sea visible hasta que se cargue */
+#video-background {
+  display: none;
+}
+#programdor{
+  
+  margin-bottom: 50px;
+
+}
+#boton{
+  background-color:blueviolet;
+}

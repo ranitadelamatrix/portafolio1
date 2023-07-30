@@ -19,32 +19,65 @@
     <div id="logo">
       <img id="locomotora" src="imagenes/locomotora.png" alt="locomotora">
     </div>
+    <div id="conteicono" class="container text-center mt-4">
+      <div class="row">
+          <div class="col-md-12 col-12">
     <div id="ti">
-      <H1>The Programmer Machinist</H1>
+      <H1 id="programdor">The Programmer Machinist</H1>
     </div>
     </div>
+  </div>
+</div>
+</div>
 
-    <nav id="menu">
-      <ul>
-        
-        <li><a href="proyecto.html">Proyectos</a></li>
-        <li><a href="acerca.html">Acerca de</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
-    </nav>
+    <div class="container d-flex justify-content-center">
+      <nav id="menu" class="navbar navbar-expand-md navbar-light bg-light text-center">
+          <!-- Botón colapsable en dispositivos pequeños -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Elementos del menú -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav w-100 bg-light">
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="proyecto.html">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="acerca.html">Acerca de</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
     
   </header>
-    
+  <div id="conteicono" class="container text-center mt-4">
+    <div class="row">
+        <div class="col-md-12 col-12">
   <div id="textoinformativo">
     <div id="foto">
     <img src="imagenes/fotoperfil.jpeg" alt="foto de perfil" id="fotoperifil">
     </div>
     <div id="text">
-    <h2>Hola mi nombre es Gaston Trejo, actualmente estoy cursando la tecnicatura de tecnico superior en tecnologias 4.0, me dedico a la programacion, por eso me capacito constantemente. Me destaco en habilidades de desarrollador web en html, css. 
-       Tambien manejo el lenguaje de programacion JavaScript, Python, SQL.</h2>
+    <h2 id="bienvenida">¡Bienvenido a mi Portafolio Web! Mi nombre es Gastón Trejo y soy un apasionado desarrollador Front-end con habilidades en HTML y CSS.
+       También cuento con experiencia en el manejo de lenguajes como SQL (MySQL Workbench), Python y JavaScript.
+       Siempre estoy en búsqueda de oportunidades para seguir creciendo como desarrollador Front-end y enfrentar nuevos retos.
+        Mi colaboración en proyectos en GitHub refleja mi dedicación y pasión por el código abierto y la mejora continua.</h2>
     </div>
     </div>
+    <div id="botonns">
+    <button type="button" id="boton" onclick="cambiar()" class="btn-lg">Ler mas</button>
+    <button type="button" id="volver" style="display:none;" onclick="no()">Volver</button>
+
     
+  </div>
+<div>
+  
+</div>
+  
     <footer>
 
       <div id="conteicono">
@@ -55,5 +88,5 @@
     </div>
     </footer>
 </body>
-
+<script src="index.js"></script>
 </html>
