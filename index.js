@@ -56,4 +56,21 @@ function crearBoton() {
     // Agregar el botón al contenedor
     contenedor.appendChild(boton);
 }
+function fondo() {
+    let fondo = document.getElementById("body")
+    fondo.style.backgroundImage= "url('imagenes/universo.png')"
+    let texto = document.getElementById("bienvenida")
+    texto.style.color = "green"
+    let titulo = document.getElementById("programdor")
+    titulo.style.color = "green"
+    
 
+}
+function volver(){
+    let fondo = document.getElementById("body")
+    fondo.style.backgroundImage= "url('imagenes/claritio.jpg')"
+    let texto = document.getElementById("bienvenida")
+    texto.style.color = "black"
+    let titulo = document.getElementById("programdor")
+    titulo.style.color = "black"
+}
