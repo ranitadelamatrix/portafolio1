@@ -90,13 +90,20 @@ nav ul {
     width: 90%;
   }
   #descarga{
-    width: 50px;
-    height: 50px;
-    
-    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+  }
+  #cajadescargar{
+    display: contents;
+    border: 2px  solid black;
+    text-align: center;
+  }
 
     
-  }
+
+    
+  
   #des{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
@@ -106,6 +113,7 @@ nav ul {
     
   }
   #conicon{
+    display: inline;
     text-align: center;
   }
   #textoo{
@@ -120,4 +128,26 @@ nav ul {
   #info{
     text-align: center;
   }
-  
+  #python{
+    width: 250px;
+    height: 150px;
+  }
+  .habilidad{
+    float: left;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+
+    text-align: center;
+    height: 200px;
+    width: 200px;
+  }
+  .iconohabilidad{
+    height: 200px;
+    width: 200px;
+    
+  }
+  #contienehabilidades{
+    display: inline;
+    
+  }
