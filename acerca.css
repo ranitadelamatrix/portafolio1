@@ -95,10 +95,8 @@ nav ul {
     margin-top: 50px;
   }
   #cajadescargar{
-    float: left;
-    
-
     display: contents;
+    border: 2px  solid black;
     text-align: center;
   }
 
