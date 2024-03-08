@@ -6,6 +6,7 @@
     <title>Gaston Trejo</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="titulo.css">
+    <link rel="stylesheet" href="apipost.css">
     <link rel="icon" href="imagenes/locomotora.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -61,17 +62,21 @@
               </div>
           </nav>
       </div>
+      <hr>
+      <button type="button" onclick="integrantes()">Integrante</button>
+      <p id="todosIntegrantes"></p>
       <hr>    
       <form id="buscarIntegranteForm">
         <label for="id">ID del integrante:</label>
         <input type="text" id="id" name="id">
         <button type="submit">Buscar</button>
+        <p id="resultado"></p>
     </form>
     <h1>resultados</h1>
     <div id="div">
         <p></p>
         <hr><hr>
-    </div><h1>Formulario de Integrantes</h1>
+    </div><h1>Carga de Integrantes</h1>
     <form id="integranteForm">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br>
@@ -84,6 +89,10 @@
         <button type="button" onclick="verificar()">verificar</button>
         <button type="submit" style="display: none;" id="si">Agregar Integrante</button>
     </form>
+    <div id="loading">
+      <img src="imagenes/cargando.gif" alt="Cargando..." width="50" height="50">
+      <p>Cargando datos...</p>
+    </div>
 
     <footer>
 
