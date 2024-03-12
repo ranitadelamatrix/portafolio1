@@ -8,7 +8,7 @@ h3{
 #cal{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-font-family: 'Lugrasimo', cursive;
+
 color:brown;
 }
 #tt{
@@ -16,4 +16,6 @@ color:brown;
     font-family: 'Lugrasimo', cursive;
     
 }
-
+#text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
