@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="apipost.css">
     <link rel="icon" href="imagenes/locomotora.png">
     <link rel="stylesheet" href="apipropida.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Angkor&family=Madimi+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
@@ -65,7 +71,7 @@
         <div class="row">
             
       <div id="ti">
-        <h2 id="apitext">Esta es una API a modo de prueba, desplegada en Render, la primer consulta puede demorar unos
+        <h2 class="angkor-regular">Esta es una API a modo de prueba, desplegada en Render, la primer consulta puede demorar unos
           segundos ya que esta desplegada en un servidor gratuito, luego funciona rapidamente.
         </h2>
        
@@ -81,27 +87,28 @@
       <p id="todosIntegrantes"></p>
       <hr>    
       <form id="buscarIntegranteForm">
-        <label for="id">ID del integrante:</label>
+        <label for="id" class="madimi-one-regular">ID del integrante:</label>
         <input type="text" id="id" name="id">
-        <button type="submit">Buscar</button>
-        <p id="resultado"></p>
+        <button type="submit" class="madimi-one-regular">Buscar</button>
+        
     </form>
-    <h1>resultados</h1>
+    <h1 class="madimi-one-regular">resultados</h1>
+    <p id="resultado"></p>
     <div id="div">
         <p></p>
         <hr><hr>
-    </div><h1>Carga de Integrantes</h1>
+    </div><h1 class="madimi-one-regular">Carga de Integrantes</h1>
     <form id="integranteForm">
-        <label for="nombre">Nombre:</label>
+        <label for="nombre" class="madimi-one-regular">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br>
-        <label for="edad">Edad:</label>
+        <label for="edad" class="madimi-one-regular">Edad:</label>
         <input type="number" id="edad" name="edad" required><br>
-        <label for="email">Correo electrónico:</label>
+        <label for="email" class="madimi-one-regular">Correo electrónico:</label>
         <input type="email" id="email" name="email" required><br>
-        <label for="">verificar</label>
+        <label for="" class="madimi-one-regular">verificar</label>
         <input type="password" id="verifica" >
         <button type="button" onclick="verificar()">verificar</button>
-        <button type="submit" style="display: none;" id="si">Agregar Integrante</button>
+        <button type="submit" style="display: none;" id="si" class="madimi-one-regular">Agregar Integrante</button>
     </form>
     <div id="loading">
       <img src="imagenes/cargando.gif" alt="Cargando..." width="50" height="50">
